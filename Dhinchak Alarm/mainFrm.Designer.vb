@@ -29,6 +29,7 @@ Partial Class mainForm
         Me.timeLeftLabel = New System.Windows.Forms.Label()
         Me.hourUpDown = New System.Windows.Forms.NumericUpDown()
         Me.MinuteUpDown = New System.Windows.Forms.NumericUpDown()
+        Me.alarmSoundSelector = New System.Windows.Forms.ComboBox()
         CType(Me.hourUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MinuteUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -36,10 +37,10 @@ Partial Class mainForm
         'setButton
         '
         Me.setButton.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.setButton.Location = New System.Drawing.Point(332, 205)
+        Me.setButton.Location = New System.Drawing.Point(169, 260)
         Me.setButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.setButton.Name = "setButton"
-        Me.setButton.Size = New System.Drawing.Size(131, 39)
+        Me.setButton.Size = New System.Drawing.Size(131, 40)
         Me.setButton.TabIndex = 3
         Me.setButton.Text = "Set"
         Me.setButton.UseVisualStyleBackColor = True
@@ -63,29 +64,43 @@ Partial Class mainForm
         '
         Me.hourUpDown.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.hourUpDown.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hourUpDown.Location = New System.Drawing.Point(106, 205)
+        Me.hourUpDown.Location = New System.Drawing.Point(5, 260)
         Me.hourUpDown.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.hourUpDown.Maximum = New Decimal(New Integer() {12, 0, 0, 0})
         Me.hourUpDown.Name = "hourUpDown"
-        Me.hourUpDown.Size = New System.Drawing.Size(107, 39)
+        Me.hourUpDown.Size = New System.Drawing.Size(78, 39)
         Me.hourUpDown.TabIndex = 1
         '
         'MinuteUpDown
         '
         Me.MinuteUpDown.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.MinuteUpDown.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MinuteUpDown.Location = New System.Drawing.Point(223, 205)
+        Me.MinuteUpDown.Location = New System.Drawing.Point(91, 260)
         Me.MinuteUpDown.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MinuteUpDown.Maximum = New Decimal(New Integer() {60, 0, 0, 0})
         Me.MinuteUpDown.Name = "MinuteUpDown"
-        Me.MinuteUpDown.Size = New System.Drawing.Size(101, 39)
+        Me.MinuteUpDown.Size = New System.Drawing.Size(70, 39)
         Me.MinuteUpDown.TabIndex = 2
+        '
+        'alarmSoundSelector
+        '
+        Me.alarmSoundSelector.AccessibleDescription = "Select songs from Dhinchak Pooja (or other reputed singers)"
+        Me.alarmSoundSelector.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.alarmSoundSelector.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.alarmSoundSelector.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.alarmSoundSelector.FormattingEnabled = True
+        Me.alarmSoundSelector.Items.AddRange(New Object() {"Selfie Maine Le Li Aaj", "Dilon Ka Shooter"})
+        Me.alarmSoundSelector.Location = New System.Drawing.Point(307, 260)
+        Me.alarmSoundSelector.Name = "alarmSoundSelector"
+        Me.alarmSoundSelector.Size = New System.Drawing.Size(287, 40)
+        Me.alarmSoundSelector.TabIndex = 4
         '
         'mainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(662, 303)
+        Me.Controls.Add(Me.alarmSoundSelector)
         Me.Controls.Add(Me.MinuteUpDown)
         Me.Controls.Add(Me.hourUpDown)
         Me.Controls.Add(Me.timeLeftLabel)
@@ -106,4 +121,5 @@ Partial Class mainForm
     Friend WithEvents timeLeftLabel As Label
     Friend WithEvents hourUpDown As NumericUpDown
     Friend WithEvents MinuteUpDown As NumericUpDown
+    Friend WithEvents alarmSoundSelector As ComboBox
 End Class

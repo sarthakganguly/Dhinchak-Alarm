@@ -61,11 +61,20 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''  Looks up a localized string similar to dilo_ka_shooter.wav.
         '''</summary>
-        Friend ReadOnly Property selfie_maine() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property dilo_ka_shooter() As String
             Get
-                Return ResourceManager.GetStream("selfie_maine", resourceCulture)
+                Return ResourceManager.GetString("dilo_ka_shooter", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to selfie_maine.wav.
+        '''</summary>
+        Friend ReadOnly Property selfie_maine() As String
+            Get
+                Return ResourceManager.GetString("selfie_maine", resourceCulture)
             End Get
         End Property
     End Module

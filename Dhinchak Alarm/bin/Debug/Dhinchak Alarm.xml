@@ -22,9 +22,14 @@ Dhinchak Alarm
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Dhinchak_Alarm.My.Resources.Resources.dilo_ka_shooter">
+<summary>
+  Looks up a localized string similar to dilo_ka_shooter.wav.
+</summary>
+</member>
 <member name="P:Dhinchak_Alarm.My.Resources.Resources.selfie_maine">
 <summary>
-  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+  Looks up a localized string similar to selfie_maine.wav.
 </summary>
 </member>
 <member name="M:Dhinchak_Alarm.mainForm.alarmTimer_Tick(System.Object,System.EventArgs)">

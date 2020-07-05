@@ -1,8 +1,18 @@
 ﻿Public Class mainForm
-
+    Private Const firstElement As SByte = 0
     Dim HOURTOSECS As Short = 60 * 60
     Dim MINTOSECS As Short = 60
     Dim timeLeftSeconds As Int16 = 0
+
+    Public Sub New()
+
+        InitializeComponent()
+
+        ''TODO - Initialise the combo box so that any new entry into Audio folder
+        ''is automatically parsed into list of items
+        alarmSoundSelector.SelectedIndex = firstElement
+
+    End Sub
 
     ''' <summary>
     ''' Regular Alarm Tick event. Ticker ends when time remaining drops to 0 seconds.
@@ -63,12 +73,29 @@
     End Function
 
     Private Sub playSound()
+
         Dim path As String = System.AppDomain.CurrentDomain.BaseDirectory.Replace("\bin\Debug\", "\Audio\")
+        Dim song = ""
+        Select Case alarmSoundSelector.SelectedIndex
+            Case 0
+                song = My.Resources.selfie_maine
+            Case 1
+                song = My.Resources.dilo_ka_shooter
+        End Select
+
         Try
-            My.Computer.Audio.Play(path + "\selfie_maine.wav", AudioPlayMode.BackgroundLoop)
+            My.Computer.Audio.Play(path + song, AudioPlayMode.BackgroundLoop)
         Catch ex As Exception
-            MessageBox.Show(ex.Message + path + "\selfie_maine.wav")
+            MessageBox.Show(ex.Message + path + song)
         End Try
+
+    End Sub
+
+    ''' <summary>
+    ''' TO DO
+    ''' </summary>
+    Private Sub parseAlarmSounds()
+
     End Sub
 
 End Class
