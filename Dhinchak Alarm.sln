@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dhinchak Alarm", "Dhinchak Alarm\Dhinchak Alarm.vbproj", "{205AEFED-47DD-41DF-AB18-3EBE8FD2BBC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{205AEFED-47DD-41DF-AB18-3EBE8FD2BBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205AEFED-47DD-41DF-AB18-3EBE8FD2BBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205AEFED-47DD-41DF-AB18-3EBE8FD2BBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205AEFED-47DD-41DF-AB18-3EBE8FD2BBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6770F6C5-EAC5-4443-8BB1-252387E4B01E}
+	EndGlobalSection
+EndGlobal

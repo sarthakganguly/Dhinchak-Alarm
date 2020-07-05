@@ -1,0 +1,13 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\bin\Debug\Dhinchak Alarm.exe.config
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\bin\Debug\Dhinchak Alarm.exe
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\bin\Debug\Dhinchak Alarm.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\bin\Debug\Dhinchak Alarm.xml
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak_Alarm.mainForm.resources
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak_Alarm.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak Alarm.vbproj.GenerateResource.Cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak Alarm.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak Alarm.exe
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak Alarm.xml
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\obj\Debug\Dhinchak Alarm.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\bin\Debug\Dhinchak Alarm.exe.CodeAnalysisLog.xml
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Dhinchak Alarm\Dhinchak Alarm\bin\Debug\Dhinchak Alarm.exe.lastcodeanalysissucceeded

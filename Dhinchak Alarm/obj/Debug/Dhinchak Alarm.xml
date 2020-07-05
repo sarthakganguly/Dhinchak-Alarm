@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Dhinchak Alarm
+</name>
+</assembly>
+<members>
+<member name="T:Dhinchak_Alarm.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Dhinchak_Alarm.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Dhinchak_Alarm.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Dhinchak_Alarm.mainForm.alarmTimer_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Regular Alarm Tick event. Ticker ends when time remaining drops to 0 seconds.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Dhinchak_Alarm.mainForm.returnTimeFormat(System.Int16)">
+ <summary>
+ returnTimeFormat return the time in String Format such that hours 
+ and minutes left are clearly shown. This helps in abstracting the
+ string generation for time remaining.
+ </summary>
+ <param name="time">time as Int16</param>
+ <returns>timeInText</returns>
+</member>
+</members>
+</doc>
