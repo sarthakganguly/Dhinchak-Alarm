@@ -22,6 +22,11 @@ Dhinchak Alarm
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Dhinchak_Alarm.My.Resources.Resources.selfie_maine">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="M:Dhinchak_Alarm.mainForm.alarmTimer_Tick(System.Object,System.EventArgs)">
  <summary>
  Regular Alarm Tick event. Ticker ends when time remaining drops to 0 seconds.

@@ -39,7 +39,7 @@ Partial Class mainForm
         Me.setButton.Location = New System.Drawing.Point(332, 205)
         Me.setButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.setButton.Name = "setButton"
-        Me.setButton.Size = New System.Drawing.Size(131, 60)
+        Me.setButton.Size = New System.Drawing.Size(131, 39)
         Me.setButton.TabIndex = 3
         Me.setButton.Text = "Set"
         Me.setButton.UseVisualStyleBackColor = True

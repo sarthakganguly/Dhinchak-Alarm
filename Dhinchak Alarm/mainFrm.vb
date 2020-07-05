@@ -14,6 +14,7 @@
 
         If timeLeftSeconds = 0 Then
             alarmTimer.Stop()
+            playSound()
         End If
 
         timeLeftLabel.Text = returnTimeFormat(timeLeftSeconds)
@@ -60,5 +61,14 @@
         Return timeInText
 
     End Function
+
+    Private Sub playSound()
+        Dim path As String = System.AppDomain.CurrentDomain.BaseDirectory.Replace("\bin\Debug\", "\Audio\")
+        Try
+            My.Computer.Audio.Play(path + "\selfie_maine.wav", AudioPlayMode.BackgroundLoop)
+        Catch ex As Exception
+            MessageBox.Show(ex.Message + path + "\selfie_maine.wav")
+        End Try
+    End Sub
 
 End Class
